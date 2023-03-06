@@ -1,10 +1,8 @@
 ﻿namespace WinterWorkShop.Cinema.Data.Models
 {
-    public class MovieModel
+    public class ProjectionsModel
     {
-        public int brojSale;
-
         public int Id { get; set; }
-        public string Name { get; set; }
+        public int brojSale { get; set; }
     }
 }
