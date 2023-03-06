@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WinterWorkShop.Cinema.Domain.Responses
+﻿namespace WinterWorkShop.Cinema.Domain.Responses
 {
-    internal class Class1
+    public class GetAllProjectionsResponse
     {
+        public int Id { get; set; }
+        public int brojSale { get; set; }
     }
 }
