@@ -4,5 +4,6 @@
     {
         public int Id { get; set; }
         public int brojSale { get; set; }
+        public DateTime Date { get; set; }
     }
 }

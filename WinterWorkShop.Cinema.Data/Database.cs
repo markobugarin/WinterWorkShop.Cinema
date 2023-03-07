@@ -11,8 +11,8 @@ namespace WinterWorkShop.Cinema.Domain.Common
         };
         public List<ProjectionsModel> GetAllProjectionsResponses = new List<ProjectionsModel>
         {
-            new ProjectionsModel { Id = 1, brojSale = 3 },
-            new ProjectionsModel { Id = 2, brojSale = 4}
+            new ProjectionsModel { Id = 1, brojSale = 3 , Date = new DateTime(2023, 3, 7, 8, 0, 00) },
+            new ProjectionsModel { Id = 2, brojSale = 4 , Date = new DateTime(2023, 3, 7, 10, 0, 00)}
         };
     }
 }
