@@ -29,7 +29,8 @@ namespace WinterWorkShop.Cinema.API.Controllers
                 result.Add(new GetAllProjectionsResponse
                 {
                     Id = project.Id,
-                    brojSale = project.brojSale
+                    brojSale = project.brojSale,
+                    Date = project.Date
                 });
             }
 
